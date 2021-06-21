@@ -1,7 +1,10 @@
+import React from "react";
 import Head from "next/head";
 import { TestimonyLister } from "../components/TestimonyLister";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { SubmitCharacter } from "../components/SubmitCharacter";
+import { BulletinBoard } from "../components/BulletinBoard";
 
 export default function Home() {
   return (
@@ -18,6 +21,8 @@ export default function Home() {
         <Header />
         <div className="flex-grow">
           <TestimonyLister />
+          <SubmitCharacter />
+          <BulletinBoard />
         </div>
         <Footer />
       </div>
