@@ -6,7 +6,7 @@ import { Header } from "../components/Header";
 export default function Home() {
   return (
     <div className="h-100 bg-gray-800">
-      <div className="flex flex-col bg-gray-800 text-gray-400 h-screen">
+      <div className="flex flex-col bg-gray-800 text-gray-400 h-screen lg:mx-12 mx-4">
         <Head>
           <title>WoW Friend Finder</title>
           <meta
